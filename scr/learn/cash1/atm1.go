@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+
 	// ini adalah saldo awal
 	saldo := 100000.0
 
