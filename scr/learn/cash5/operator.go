@@ -17,6 +17,6 @@ func main() {
 	fmt.Printf("hasil perkalian adalah %d\n", a*b)
 	fmt.Printf("hasil penjumlahan adalah %d\n", a+b)
 	fmt.Printf("hasil pembagian adalah %d\n", a/b)
-	fmt.Printf("hasil pengurangan adalah %d\n", a-b)
+	fmt.Printf("hasil perkurangan adalah %d\n", a-b)
 	fmt.Printf("hasil modulus adalah %d\n", a%b)
 }
