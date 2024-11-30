@@ -5,13 +5,11 @@ import (
 )
 
 func main() {
-	var a = 10
-	var b = 5
+	var a, b int
 
-	fmt.Println(a + b)
-	fmt.Println(a - b)
-	fmt.Println(a * b)
-	fmt.Println(a / b)
-	fmt.Println(a % b)
+	fmt.Print("masukkan dua angka (pisahkan dengan spasi): ")
+	fmt.Scanf("%d %d", &a, &b)
 
+	fmt.Printf("hasilnya pertama adalah %d\n", a)
+	fmt.Printf("hasil ke dua adalah %d", b)
 }
