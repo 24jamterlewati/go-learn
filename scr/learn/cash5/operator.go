@@ -7,9 +7,16 @@ import (
 func main() {
 	var a, b int
 
+	// input dari pengguna
 	fmt.Print("masukkan dua angka (pisahkan dengan spasi): ")
+
+	// untuk menyimpan nilai yg di input oleh pengguna
 	fmt.Scanf("%d %d", &a, &b)
 
-	fmt.Printf("hasilnya pertama adalah %d\n", a)
-	fmt.Printf("hasil ke dua adalah %d", b)
+	// output yg di hasilkan
+	fmt.Printf("hasil perkalian adalah %d\n", a*b)
+	fmt.Printf("hasil penjumlahan adalah %d\n", a+b)
+	fmt.Printf("hasil pembagian adalah %d\n", a/b)
+	fmt.Printf("hasil pengurangan adalah %d\n", a-b)
+	fmt.Printf("hasil modulus adalah %d\n", a%b)
 }
