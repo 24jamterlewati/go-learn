@@ -1,4 +1,4 @@
-// Buatlah program yang menggunakan for loop untuk menghitung jumlah dari semua angka genap antara 1 dan 100.
+// Buatlah program yang menggunakan for loop untuk menghitung jumlah dari semua angka genap antara 1 dan 10.
 
 package main
 
