@@ -8,7 +8,7 @@ func main() {
 	// Inisialisasi variabel untuk menyimpan total
 	total := 0
 
-	// Loop dari 1 hingga 100
+	// Loop dari 1 hingga 10
 	for i := 1; i <= 10; i++ {
 		// Periksa apakah angka genap
 		if i%2 == 0 {
